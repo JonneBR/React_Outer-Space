@@ -1,0 +1,22 @@
+#nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+  background-color: #293241;
+}
+#nav li {
+  margin-left: 2rem;
+  /* border: 1px solid red; */
+  /* margin-right: 2%; */
+}
+
+#nav li a {
+  /* border: 1px solid red; */
+  color: white;
+  text-decoration: none;
+}
