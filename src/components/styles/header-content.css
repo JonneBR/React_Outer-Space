@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  /* border: 1px solid red; */
+}
+
+.table-content {
+  color: white;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+td {
+  /* border: 1px solid red; */
+}

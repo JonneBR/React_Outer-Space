@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Asteroid from './components/asteroidImage'
+import Header from './components/header-content'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <div class='container'>
         <Asteroid/>
+        <Header/>
       </div>
       <Footer/>
     </div>
