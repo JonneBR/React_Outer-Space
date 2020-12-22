@@ -1,16 +1,29 @@
-.header {
+.container-table {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
   /* border: 1px solid red; */
 }
 
-.table-content {
+.content-table {
   color: white;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* width: 100%; */
   /* border: 1px solid red; */
-  width: 50%;
+  margin: 25px 0;
+  margin-left: 10px;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-collapse: collapse;
 }
 
-td {
+.content-table thead tr {
+  text-align: left;
   /* border: 1px solid red; */
+  background-color: #293241;
+}
+
+.content-table td {
+  color: #f29d35;
 }

@@ -4,10 +4,10 @@ import './styles/header-content.css'
 class Header extends React.Component{
   render(){
     return(
-      <div className="header">
-        <table className="table-content">
+      <div className="container-table">
+        <table className="content-table">
         {/* <header class="header-content"> */}
-        <thead class='testando'>
+        <thead>
           <tr>
             <th>Id</th>
             <th>Name</th>
@@ -19,6 +19,13 @@ class Header extends React.Component{
         {/* </header> */}
         <tbody>
              <tr class='teste'>
+              <td>051214654</td>
+              <td>H540GO</td>
+              <td>2013</td>
+              <td>2019</td>
+              <td>True</td>
+            </tr>
+            <tr class='teste'>
               <td>051214654</td>
               <td>H540GO</td>
               <td>2013</td>
