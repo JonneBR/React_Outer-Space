@@ -24,6 +24,7 @@ class Header extends React.Component{
               <td>2013</td>
               <td>2019</td>
               <td>True</td>
+              <td>F</td>
             </tr>
             <tr class='teste'>
               <td>051214654</td>
@@ -31,6 +32,7 @@ class Header extends React.Component{
               <td>2013</td>
               <td>2019</td>
               <td>True</td>
+              <td>F</td>
             </tr>
           </tbody>
         </table>

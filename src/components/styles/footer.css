@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   margin: 0;
   height: 10vh;
+  /* margin-top: 100px; */
+  /* clear: both; */
   color: white;
   background-color: #293241;
+  /* border: 1px solid red; */
 }

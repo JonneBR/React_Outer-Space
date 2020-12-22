@@ -26,4 +26,5 @@
 
 .content-table td {
   color: #f29d35;
+  border-bottom: 1px solid grey;
 }

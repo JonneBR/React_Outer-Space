@@ -3,9 +3,15 @@
   font-weight: bold;
 }
 
+:root {
+  /* border: 1px solid red; */
+  height: 100vh;
+  background-color: #003049;
+}
+
 .container {
   margin: 0;
-  height: 84vh;
   /* border: 1px solid red; */
-  background-color: #003049;
+  min-height: calc(112.6vh - 211px - 58px);
+  /* background-color: #003049; */
 }
