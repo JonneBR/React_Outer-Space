@@ -16,7 +16,26 @@ async function LoadNeos(){
   //   neos.push(neoInformations)
     
   // })
+  renderElements(neos)
   console.log(neos);
+}
+
+function renderElements(neos){
+  // neos.forEach(neo =>{
+    // let logo = 'ola'
+    // let tr = document.createElement('tr')
+    // let id = document.createElement('td')
+    // id.innerHTML = '55554'
+    // tr.appendChild(id)
+ 
+    //CREATE NEW TD THIS WAY OR THE WAY ABOVE?
+
+    // tr.appendChild(document.createElement("td").innerText.add(neo.id))
+    // tr.appendChild(document.createElement("td").innerText.add(neo.name))
+    // tr.appendChild(document.createElement("td").innerText.add(neo.year_range_min))
+    // tr.appendChild(document.createElement("td").innerText.add(neo.year_range_max))
+    // tr.appendChild(document.createElement("td").innerText.add(neo.issentry))
+  // })
 }
 
 export default LoadNeos()
