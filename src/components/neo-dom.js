@@ -1,13 +1,22 @@
 import getNeos from './api-request'
+import Neo from './neo'
 
 async function LoadNeos(){
-let neoJson = await getNeos()
-console.log(neoJson);
-
-// let neoJson = await getNeos()
-// neoJson.forEach(neo =>{
-//   console.log(neo);
-// })
+  let neos = []
+  let neoJSON = await getNeos()
+  console.log(neoJSON);
+  // neoJSON.forEach(neo =>{
+  //   let neoInformations = new Neo(
+  //     neo['sentryId'],
+  //     neo['fullname'],
+  //     neo['year_range_min'],
+  //     neo['year_range_max'],
+  //     neo['is_active_sentry_object']
+  //   )
+  //   neos.push(neoInformations)
+    
+  // })
+  console.log(neos);
 }
 
 export default LoadNeos()
