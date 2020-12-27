@@ -25,17 +25,9 @@ class Header extends React.Component{
     })
   }
   render(){
-    // this.state.asteroids.map((asteroid) => {
-    //   console.log(asteroid.sentryId);
-    //   console.log(asteroid.fullname);
-    //   console.log(asteroid.year_range_min);
-    //   console.log(asteroid.year_range_max);
-    //   console.log(asteroid.is_active_sentry_object);
-    // })
     return(
       <div className="container-table">
         <table className="content-table">
-        {/* <header class="header-content"> */}
         <thead>
           <tr>
             <th>Id</th>
