@@ -1,13 +1,26 @@
 import React from 'react'
 import './styles/header-content.css'
+import LoadNeos from './neo-dom'
 
 class Header extends React.Component{
   render(){
+    const neosData = async () => {
+    const neos = await LoadNeos
+
+    const renderNeos = await Promise.all(
+      neos.map((n) => {
+        // <li>Satélite({n})</li>
+        console.log(n);
+      })
+    )
+    }
+    neosData()
     return(
       <div className="container-table">
         <table className="content-table">
         {/* <header class="header-content"> */}
         <thead>
+        
           <tr>
             <th>Id</th>
             <th>Name</th>
@@ -18,6 +31,7 @@ class Header extends React.Component{
         </thead>
         {/* </header> */}
         <tbody>
+        
              <tr class='teste'>
               <td>051214654</td>
               <td>H540GO</td>
