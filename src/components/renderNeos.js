@@ -2,7 +2,7 @@ import React from 'react'
 
 const renderNeos = (props) => {
   return(
-    <tr class='teste'>
+    <tr>
       <td>{props.sentryId}</td>
       <td>{props.fullname}</td>
       <td>{props.year_range_min}</td>
