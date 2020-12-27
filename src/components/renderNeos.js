@@ -1,23 +1,14 @@
 import React from 'react'
-import LoadNeos from './neo-dom'
 
-class renderNeos extends React.Component{
-render(){
-  const neosData = async () => {
-    const neos = await LoadNeos
-  
-    const renderNeos = await Promise.all(
-      neos.map((n) => {
-        <li>Satélite({n})</li>
-        // console.log(n);
-      })
-    )
-    }
+const renderNeos = (props) => {
+  return(
+    <tr class='teste'>
+      <td>{props.sentryId}</td>
+      <td>{props.fullname}</td>
+      <td>{props.year_range_min}</td>
+      <td>{props.year_range_max}</td>
+      <td>True</td>
+    </tr>
+  )
 }
-
-return (
-  {neosData}
-)
-}
-
 export default renderNeos
